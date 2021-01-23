@@ -1,3 +1,41 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 10%;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock {
+  font-size: 100px;
+  font-weight: 600;
+  margin-bottom: 2%;
+}
+
+input {
+  border: none;
+  text-align: center;
+}
+
 .form,
 .greeting {
   display: none;
@@ -5,4 +43,64 @@
 
 .showing {
   display: block;
+}
+
+.form {
+  font-size: 50px;
+}
+
+.form > input {
+  margin-bottom: 10px;
+}
+
+.greeting {
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 7%;
+}
+
+.toDoForm {
+  font-size: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.toDoForm > input {
+  border-bottom: 2px solid black;
+  width: 80%;
+  padding: 5px 0;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  color: black;
+  padding: 0px;
+}
+
+button:active {
+  filter: brightness(50%);
+}
+
+.toDoList {
+  width: 100%;
+  max-width: 300px;
+}
+
+.toDoList > li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+footer {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
