@@ -1,8 +1,9 @@
 // queriSelector : imediatley dominate되는 첫번째 자식요소를 반환
 // querySelectorAll : 해당하는 모든 것들을 배열로 반환.
-const form = document.querySelector(".form"),
+const main = document.querySelector("section"),
+    form = main.querySelector(".form"),
     input = form.querySelector("input"),
-    greeting = document.querySelector(".js-greeting");
+    greeting = main.querySelector(".js-greeting");
 
 const USER_LS = "currentUser",
     SHOWING_CN = "showing";
