@@ -78,10 +78,14 @@ input {
   padding: 5px 0;
 }
 
+.toDoForm > input::placeholder {
+  color: white;
+}
+
 button {
   border: none;
   background-color: transparent;
-  color: black;
+  color: white;
   padding: 0px;
 }
 
@@ -109,6 +113,16 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.quote {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.author {
+  font-size: 10px;
 }
 
 @keyframes fadeIn {
