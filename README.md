@@ -2,7 +2,7 @@
 ###### by Junghyo Moon
 Cloning Chrome app with JS, HTML and CSS.
 
-
+![로컬 작동 사진](./images/intro.png)
 
 ### features
 - [x] clock
