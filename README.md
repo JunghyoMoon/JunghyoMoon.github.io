@@ -12,4 +12,5 @@ Cloning Chrome app with JS, HTML and CSS.
 - [x] random background & quotes
 - [ ] link to other site
 
-* It's fully working in my PC(local), but gitpage version looks weird..why?
+* ~~It's fully working in my PC(local), but gitpage version looks weird..why?~~
+I fixed this problem. Just turn off your dark mode extension..
